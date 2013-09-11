@@ -1,8 +1,8 @@
 module NewtonSqrt where
 
-main                        = print $ square (sqrt' 1000)
+main                        = print $ square (sqrt' 0.0005)
 
-sqrt'                        = sqrtIter 1
+sqrt'                       = sqrtIter 1
 
 sqrtIter guess x
     | goodEnough guess x    = guess

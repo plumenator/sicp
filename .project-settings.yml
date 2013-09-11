@@ -11,3 +11,5 @@ modules:
     filename: src/Exercise1_3.hs
   NewtonSqrt:
     filename: src/NewtonSqrt.hs
+  Exercise1_7:
+    filename: src/Exercise1_7.hs
