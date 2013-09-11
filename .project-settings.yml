@@ -9,3 +9,5 @@ ghc-args: []
 modules:
   Exercise1_3:
     filename: src/Exercise1_3.hs
+  NewtonSqrt:
+    filename: src/NewtonSqrt.hs

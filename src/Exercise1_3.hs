@@ -1,6 +1,6 @@
 module Exercise1_3 where
 
-main = putStrLn $ show $ sumOfSquaresOfLarger 12 12 12
+main = print $ sumOfSquaresOfLarger 12 12 12
 
 sumOfSquaresOfLarger x y z
     | x >= z && y >= z    = x*x + y*y
