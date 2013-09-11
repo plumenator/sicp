@@ -6,4 +6,6 @@ module-template: ! 'module MODULE_NAME where
 
 '
 ghc-args: []
-modules: {}
+modules:
+  Exercise1_3:
+    filename: src/Exercise1_3.hs
