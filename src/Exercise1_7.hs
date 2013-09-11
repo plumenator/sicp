@@ -14,6 +14,6 @@ improve guess x             = average guess (x / guess)
 
 average x y                 = (x + y) / 2
 
-goodEnough guess prevGuess  = abs (guess / prevGuess - 1) < 0.001
+goodEnough guess prevGuess  = abs (guess / prevGuess - 1) < 0.001    -- Look ma! Divide by zero is legal!
 
 square x                    = x * x
